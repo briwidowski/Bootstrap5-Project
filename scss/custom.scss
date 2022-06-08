@@ -1,0 +1,9 @@
+$teal: #39c99d;
+$orange: rgb(218, 152, 31);
+
+$primary: $teal;
+$body-bg: $orange;
+
+// Import bootstrap 5
+@import "../node_modules/bootstrap/scss/bootstrap";
+
