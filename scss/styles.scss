@@ -3,3 +3,13 @@
 body {
     color: white;
 }
+
+.custombg {
+    background: black url("../src/restaurant-banner.jpg");
+    background-size: cover;
+    min-height: 360px;
+}
+
+.signup {
+    min-height: 300px;
+}

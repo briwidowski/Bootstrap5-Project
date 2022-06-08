@@ -10,7 +10,7 @@
     <title>Grande Italia</title>
 </head>
 <body>
-    <div class="container">
+    <div class="container-fluid" style="width: 85%;">
         <nav class="navbar navbar-expand-lg navbar-dark bg-none">
             <a class="navbar-brand" href="#">Grande Italia</a>
             
@@ -36,49 +36,20 @@
             </div>
         </nav>
     </div>
-    <div class="container-fluid bg-dark p-5">
-        <h1>Welcome!</h1>
-        <p class="subhead">This is my new Bootstrap 5 project.</p>
+    <div class="container-fluid custombg p-5">
+        <div class="col">
+            <h1>Experience Italy</h1>
+            <p class="subhead">Taste your way.</p>
+            <a href="#" class="btn btn-primary">VIEW MENU</a>
+        </div>
 
     </div>
     <div class="container">
-        <div class="row">
-            <div class="col-sm mt-5">
-                <div class="card">
-                    <img src="./src/cuttingboard.jpg" class="card-img-top" alt="Cutting tomatoes on a cutting board">
-                    <div class="card-body">
-                      <h5 class="card-title fw-bold">Card title</h5>
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                      <a href="#" class="btn btn-primary">Go somewhere</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm mt-5">
-                <div class="card">
-                    <img src="./src/pantrypasta.jpg" class="card-img-top" alt="Pasta noodles being made">
-                    <div class="card-body">
-                      <h5 class="card-title fw-bold">Card title</h5>
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                      <a href="#" class="btn btn-primary">Go somewhere</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm mt-5">
-                <div class="card">
-                    <img src="./src/pastadish.jpg" class="card-img-top" alt="A delicious pasta dish">
-                    <div class="card-body">
-                      <h5 class="card-title fw-bold">Card title</h5>
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                      <a href="#" class="btn btn-primary">Go somewhere</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="row mt-5 mb-5 pt-5">
-            <div class="col-md-6 align-self-center">
-                <h2 class="text-center">About Us</h2>
-                <p>Proin quis dolor porta, rutrum justo id, lobortis purus. Suspendisse et lacus tellus. Mauris eu aliquet sem, sit amet vulputate velit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vel convallis risus, ac sagittis odio. Integer at tempor ligula. Sed accumsan velit maximus, vulputate mi ut, sodales tortor. Praesent quis lacinia urna, id condimentum dolor.</p>
+        
+        <div class="row mt-4 mb-5 pt-5 align-items-center">
+            <div class="col-md-6 text-center p-4">
+                <h2>About Us</h2>
+                <p>Proin quis dolor porta, lobortis purus. Suspendisse et lacus tellus. Praesent quis lacinia urna, id condimentum dolor.</p>
                 <p>Proin quis dolor porta, rutrum justo id, lobortis purus. Suspendisse et lacus tellus. Mauris eu aliquet sem, sit amet vulputate velit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vel convallis risus, ac sagittis odio. Integer at tempor ligula. Sed accumsan velit maximus, vulputate mi ut, sodales tortor. Praesent quis lacinia urna, id condimentum dolor.</p>
             </div>
             <div class="col">
@@ -86,22 +57,57 @@
             </div>
         </div>
 
-        <div class="row">
-            <div class="col-12 text-center mt-5">
-                <h2>Join our mailing list!</h2>
+        <div class="row pb-3">
+            <div class="col-sm mt-5">
+                <div class="card text-black">
+                    <img src="./src/cuttingboard.jpg" class="card-img-top" alt="Cutting tomatoes on a cutting board">
+                    <div class="card-body text-center">
+                      <h5 class="card-title fw-bold">Stream Classes</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-primary">View Classes</a>
+                    </div>
+                </div>
             </div>
-            <div class="col mt-4">
-                <form>
+            <div class="col-sm mt-5">
+                <div class="card text-black">
+                    <img src="./src/pantrypasta.jpg" class="card-img-top" alt="Pasta noodles being made">
+                    <div class="card-body text-center">
+                      <h5 class="card-title fw-bold">Multiple Locations</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-primary">Locations</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm mt-5">
+                <div class="card text-black">
+                    <img src="./src/pastadish.jpg" class="card-img-top" alt="A delicious pasta dish">
+                    <div class="card-body text-center">
+                      <h5 class="card-title fw-bold">Delicious Meals</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-primary">View Menu</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+        <div class="row bg-black p-4 mt-5 signup">
+            <div class="col-12 text-center mt-3">
+                <h2>Join our mailing list!</h2>
+                <p>Don't miss our next newsletter! Add your email to our subscription below.</p>
+            </div>
+            <div class="col text-center">
+                <form class="align-items-center">
                     <div class="mb-3">
-                      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                      <input type="email" class="form-control w-50 mx-auto bg-white" placeholder="Email Address" id="exampleInputEmail1" aria-describedby="emailHelp">
                     </div>
                 </form>
             </div>
-            <div class="col-12 text-center">
-                <button type="submit" class="btn btn-primary w-25">Submit</button>
+            <div class="col-12 mb-4 text-center">
+                <button type="submit" class="btn btn-primary w-25">Sign Up</button>
             </div>
         </div>
 
+    <div class="container">
         <div class="row mt-5">
             <div class="col mt-5">
                 <h2>Section Heading</h2>
