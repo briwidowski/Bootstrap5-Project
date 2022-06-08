@@ -4,6 +4,11 @@ $orange: rgb(218, 152, 31);
 $primary: $teal;
 $body-bg: $orange;
 
+.card-img, .card-img-top {
+    object-fit: cover;
+    aspect-ratio: 1/.7;
+}
+
 // Import bootstrap 5
 @import "../node_modules/bootstrap/scss/bootstrap";
 

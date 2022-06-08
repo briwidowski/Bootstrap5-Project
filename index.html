@@ -7,13 +7,17 @@
     
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <link rel="stylesheet" href="css/styles.css">
-    <title>Gulp/BrowserSync Starter</title>
+    <title>Grande Italia</title>
 </head>
 <body>
     <div class="container">
-        <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-            <a class="navbar-brand" href="#">CompanyName</a>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-none">
+            <a class="navbar-brand" href="#">Grande Italia</a>
             
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
             <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
                 <ul class="navbar-nav">
                     <li class="nav-item">
@@ -39,9 +43,9 @@
     </div>
     <div class="container">
         <div class="row">
-            <div class="col-sm">
+            <div class="col-sm mt-5">
                 <div class="card">
-                    <img src="..." class="card-img-top" alt="...">
+                    <img src="./src/cuttingboard.jpg" class="card-img-top" alt="Cutting tomatoes on a cutting board">
                     <div class="card-body">
                       <h5 class="card-title fw-bold">Card title</h5>
                       <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -49,9 +53,9 @@
                     </div>
                 </div>
             </div>
-            <div class="col-sm">
+            <div class="col-sm mt-5">
                 <div class="card">
-                    <img src="..." class="card-img-top" alt="...">
+                    <img src="./src/pantrypasta.jpg" class="card-img-top" alt="Pasta noodles being made">
                     <div class="card-body">
                       <h5 class="card-title fw-bold">Card title</h5>
                       <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -59,9 +63,9 @@
                     </div>
                 </div>
             </div>
-            <div class="col-sm">
+            <div class="col-sm mt-5">
                 <div class="card">
-                    <img src="..." class="card-img-top" alt="...">
+                    <img src="./src/pastadish.jpg" class="card-img-top" alt="A delicious pasta dish">
                     <div class="card-body">
                       <h5 class="card-title fw-bold">Card title</h5>
                       <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -71,34 +75,72 @@
             </div>
         </div>
 
-        <div class="row">
-            <div class="col-12 col-md-6 col-lg-4">
-                <h2>Join our mailing list!</h2>
+        <div class="row mt-5 mb-5 pt-5">
+            <div class="col-md-6 align-self-center">
+                <h2 class="text-center">About Us</h2>
+                <p>Proin quis dolor porta, rutrum justo id, lobortis purus. Suspendisse et lacus tellus. Mauris eu aliquet sem, sit amet vulputate velit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vel convallis risus, ac sagittis odio. Integer at tempor ligula. Sed accumsan velit maximus, vulputate mi ut, sodales tortor. Praesent quis lacinia urna, id condimentum dolor.</p>
+                <p>Proin quis dolor porta, rutrum justo id, lobortis purus. Suspendisse et lacus tellus. Mauris eu aliquet sem, sit amet vulputate velit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vel convallis risus, ac sagittis odio. Integer at tempor ligula. Sed accumsan velit maximus, vulputate mi ut, sodales tortor. Praesent quis lacinia urna, id condimentum dolor.</p>
             </div>
             <div class="col">
+                <img src="./src/seasoning.jpg" class="card-img" alt="">
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-12 text-center mt-5">
+                <h2>Join our mailing list!</h2>
+            </div>
+            <div class="col mt-4">
                 <form>
                     <div class="mb-3">
-                      <label for="exampleInputEmail1" class="form-label">Email address</label>
                       <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
                     </div>
                 </form>
             </div>
-            <div class="col-12 col-md-2">
-                <button type="submit" class="btn btn-primary" style="width:100%;">Submit</button>
+            <div class="col-12 text-center">
+                <button type="submit" class="btn btn-primary w-25">Submit</button>
             </div>
         </div>
 
-        <div class="row">
-            <div class="col">
+        <div class="row mt-5">
+            <div class="col mt-5">
                 <h2>Section Heading</h2>
                 <p>Filler text filler text filler text filler text filler text filler text fillertext fillertext fillertext
                     text filler text filler text filler text filler text fillertext fillertext fillertext
                 </p>
             </div>
-            <div class="col-sm-4">
+            <div class="col-sm-5 col-lg-6">
                 <img src="" alt="">
             </div>
         </div>
+        <div class="row mb-5">
+            <div class="col-sm-5 col-lg-6">
+                <img src="" alt="">
+            </div>
+            <div class="col mt-4 text-end">
+                <h2>Section Heading</h2>
+                <p>Filler text filler text filler text filler text filler text filler text fillertext fillertext fillertext
+                    text filler text filler text filler text filler text fillertext fillertext fillertext
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+            <p class="col-md-4 mb-0 text-muted">© 2021 Company, Inc</p>
+        
+            <a href="/" class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none">
+              <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>
+            </a>
+        
+            <ul class="nav col-md-4 justify-content-end">
+              <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Home</a></li>
+              <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Features</a></li>
+              <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Pricing</a></li>
+              <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">FAQs</a></li>
+              <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">About</a></li>
+            </ul>
+          </footer>
     </div>
 
 

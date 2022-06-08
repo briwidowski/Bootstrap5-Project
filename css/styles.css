@@ -1,4 +1,9 @@
 @charset "UTF-8";
+.card-img, .card-img-top {
+  object-fit: cover;
+  aspect-ratio: 1/0.7;
+}
+
 /*!
  * Bootstrap v5.2.0-beta1 (https://getbootstrap.com/)
  * Copyright 2011-2022 The Bootstrap Authors
@@ -10724,5 +10729,4 @@ textarea.form-control-lg {
 }
 body {
   color: white;
-  text-transform: lowercase;
 }
