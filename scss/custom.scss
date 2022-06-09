@@ -1,19 +1,11 @@
 $green: #53a66f;
 $orange: #cc5533;
 $black: rgb(27,27,27);
-$yellow: #D4CAA3;
 
 $primary: $green;
 $secondary: $orange;
 $body-bg: $black;
 
-.bg-yellow {
-    background-color: $yellow;
-}
-
-.nav-link {
-    color: $secondary;
-}
 
 h1, h2, h3 {
     font-family: 'Libre Baskerville', serif;
@@ -39,11 +31,7 @@ p {
     min-height: 80vh;
 }
 
-.signup {
-    min-height: 300px;
-}
-
-
+// Google Maps
 .map-container-2 {
     overflow:hidden;
     position:relative;
@@ -57,8 +45,8 @@ p {
     position:absolute;
 }
 
-footer {
-    color: white;
+// Responsive Changes
+@media (min-width: 768px) {
 }
 
 // Import bootstrap 5
