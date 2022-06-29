@@ -1,10 +1,11 @@
 $green: #53a66f;
 $orange: #cc5533;
-$black: rgb(27,27,27);
+$white: #FFFFF0;
+
 
 $primary: $green;
 $secondary: $orange;
-$body-bg: $black;
+$body-bg: $white;
 
 
 h1, h2, h3 {
@@ -20,6 +21,15 @@ p {
     font-family: 'Source Sans Pro', sans-serif;
 }
 
+.nav-link {
+    color: white !important;
+}
+
+.nav-link:hover {
+    color: rgb(194, 194, 194) !important;
+    letter-spacing: 1px;
+}
+
 .card-img, .card-img-top {
     object-fit: cover;
     aspect-ratio: 1/.7;
@@ -28,7 +38,11 @@ p {
 .custombg {
     background: black url("../src/restaurant-banner.jpg");
     background-size: cover;
-    min-height: 80vh;
+    min-height: 90vh;
+}
+
+.grey-color {
+    color: #28282B;
 }
 
 // Google Maps
