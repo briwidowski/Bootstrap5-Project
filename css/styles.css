@@ -12,6 +12,10 @@ p {
   font-family: "Source Sans Pro", sans-serif;
 }
 
+.navbar-toggler {
+  background-color: rgba(255, 255, 255, 0.3) !important;
+}
+
 .nav-link {
   color: white !important;
 }
